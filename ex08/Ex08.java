@@ -44,9 +44,10 @@ public class Ex08 {
     }
 
     public static void main(String[] args) {
-        Ex08 pessoa = new Ex08("Geovanna sem treino", 66, 1.72);
+        Ex08 pessoa = new Ex08("Geovanna", 66, 1.72);
         System.out.println(pessoa.getNome() + " tem IMC: " + pessoa.calcularIMC());
         System.out.println("Classificação: " + pessoa.faixaDeRisco());
 
     }
 }
+
